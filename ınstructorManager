@@ -1,0 +1,8 @@
+
+public class InstructorManager extends User{
+
+	public void add(User user)
+	{
+		System.out.println(user.getLessonName() +  user.getId()   +" ders ve şifresi kaydedildi !!");
+	}
+}
